@@ -12,3 +12,6 @@ To download new packages activate virtual env and run:
 To run tests activate virtual env and run:
 
 1. pytest
+
+To lock dependencies activate virtual env and run:
+python3 ./env/bin/pip3 freeze > requirements.txt
