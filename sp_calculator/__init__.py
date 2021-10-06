@@ -5,7 +5,7 @@ The module exports a single class called Calculator which has
 
 """
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 class Calculator:
   """
