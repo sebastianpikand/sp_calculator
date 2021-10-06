@@ -2,10 +2,9 @@
 
 The module exports a single class called Calculator which has
 6 public methods: add, subtract, divide, multiply, nth_root and reset.
-
 """
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 class Calculator:
   """
@@ -40,12 +39,7 @@ class Calculator:
   
   def add(self, input):
     """Public method to add to calculator's current_val"""
-    print('user input:', input)
-    print('user input type:', type(input))
-    print('self.__check_user_input(input):', self.__check_user_input(input))
     if (self.__check_user_input(input)):
-      print('self.user_input:', self.user_input)
-      print('self.user_input type:', type(self.user_input))
       self.calc_val += self.user_input 
       return self.calc_val
     else:
